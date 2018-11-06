@@ -1,16 +1,30 @@
 <template>
-  <div class="">
-    {{msg}}
+  <div class="box">
+   <!-- 搜索头部 -->
+    <search/>
+    <!-- 轮播 -->
+    <carousel/>
+    <!-- nav -->
+    <homenav/>
   </div>
 </template>
 
 <script>
+import search from '@/base/search'
+import carousel from '@/base/carousel'
+import homenav from '@/components/home/homenav'
 export default {
   name: '',
   data () {
     return {
-      msg: 'home'
+
     }
+  },
+  components: {
+    search,
+    carousel,
+    homenav
+
   }
 }
 </script>

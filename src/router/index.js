@@ -11,10 +11,10 @@ export default new Router({
   routes: [
     {
       path: '/',
-      component: home
+      redirect: '/home/home'
     },
     {
-      path: '/home',
+      path: '/home/home',
       component: home
     },
     {
@@ -28,6 +28,10 @@ export default new Router({
     {
       path: '/my',
       component: my
+    },
+    {
+      path: '*',
+      component: home
     }
 
   ]

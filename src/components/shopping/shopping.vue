@@ -1,16 +1,21 @@
 <template>
   <div class="">
-    {{msg}}
+   <!-- 搜索头部 -->
+    <search/>
   </div>
 </template>
 
 <script>
+import search from '@/base/search'
 export default {
   name: '',
   data () {
     return {
       msg: 'shopping'
     }
+  },
+  components: {
+    search
   }
 }
 </script>

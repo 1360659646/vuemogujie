@@ -1,0 +1,21 @@
+
+.swiper-pagination>span{
+ position: relative;
+ bottom: -8px;
+ left: -128px;
+ width: 7px;
+ height: 7px;
+ display: inline-block;
+ 
+   
+}
+
+.swiper-pagination-bullet{
+    background: white;
+    opacity: 1;
+   
+}
+.swiper-pagination-bullet-active{
+    background: red;
+    
+}
